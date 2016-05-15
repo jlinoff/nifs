@@ -34,7 +34,7 @@ Here is an example run:
 $ # Only display unicast, IPv4 addresses, do not print unicast or multicast.
 $ # This is done by telling it to ignore multicast, ignore IPv6 and disable
 $ # the printing of unicast.
-$ nifs -m -6 -c
+$ go run nifs.go -m -6 -c
 lo0 127.0.0.1/8
 en9 192.168.2.104/24
 utun0 172.168.23.87/24
