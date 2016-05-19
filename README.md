@@ -1,6 +1,8 @@
 # nifs
 Tool to print out a simple report of the IP addresses associated with network interfaces written in Go.
 
+NOTE: I hate the way the switch options are implemented and am going to change it soon.
+
 It is somewhat platform independent in the sense that it works on my Mac and various linux distros. I have not tried it on windows because I do not have access to a windows machine.
 
 I wrote to make parsing interface/IP address simpler for specific tasks that I am working on. It is much easier to parse than ifconfig or "ip addr show" but it doesn't contain nearly as much useful information.
