@@ -1,7 +1,7 @@
 # nifs
 Tool to print out a simple report of the IP addresses associated with network interfaces written in Go.
 
-NOTE: I hate the way the switch options are implemented and am going to change it soon.
+NOTE: I hate the way the switch options are implemented and am going to change it soon to make the options affirmative, in other words -4 will print only the IPv4 devices instead of the current approach of filtering them out.
 
 It is somewhat platform independent in the sense that it works on my Mac and various linux distros. I have not tried it on windows because I do not have access to a windows machine.
 
