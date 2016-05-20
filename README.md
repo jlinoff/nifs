@@ -23,7 +23,7 @@ These are the available options.
 | -h | --help | Print the help message. |
 | -H | --hw | Only report HW interfaces (with MAC addresses). The default is to report HW and SW interfaces. |
 | -m | --multicast | Only report multicast addresses. The default is to report the unicast and multicast. |
-| -S | --SW | Only report SW interfaces (no MAC addresses). The default is to report HW and SW interfaces. |
+| -S | --sw | Only report SW interfaces (no MAC addresses). The default is to report HW and SW interfaces. |
 | -u | --unicast | Only report unicast addresses. The default is to report the unicast and multicast. |
 | -V | --version | Print the program version and exit. |
 
