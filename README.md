@@ -11,8 +11,8 @@ As mentioned above, the report format is very simple. There is one line per inte
 | ----- | ----------- |
 | interface name | The interface name. Example: lo0 |
 | IP address or CIDR | The IP address. Example: 127.0.0.1 |
-| unicast or multicast | The broadcast type. Disabled by -c. |
-| MAC address | The hardware address. Enabled by -M. |
+| unicast or multicast | The broadcast type. |
+| MAC address | The hardware address. |
 
 These are the available options.
 
