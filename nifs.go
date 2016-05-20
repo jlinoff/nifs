@@ -202,7 +202,7 @@ OPTIONS
                        The default is to report both IPv4 and IPv6 addresses.
 
     -6, --ipv6         Report only IPv6 addresses.
-    The default is to report both IPv4 and IPv6 addresses.
+                       The default is to report both IPv4 and IPv6 addresses.
 
     -h, -help          This help message.
 
