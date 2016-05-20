@@ -145,7 +145,7 @@ func getOpts() Options {
 			opts.ShowSW = true
 		case "-V", "--version":
 			base := path.Base(os.Args[0])
-			fmt.Printf("%s 1.0.0\n", base)
+			fmt.Printf("%s 0.2.0\n", base)
 			os.Exit(0)
 		default:
 			fmt.Printf("ERROR: unrecognized option '%v'\n", opt)
